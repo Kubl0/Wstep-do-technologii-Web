@@ -1,0 +1,12 @@
+.red{
+    color: red;
+    list-style-type: decimal;
+}
+.a{
+    color: green;
+    list-style-type: lower-latin;
+}
+.nieb{
+    color: blue;
+    list-style-type: square;
+}
