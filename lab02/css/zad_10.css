@@ -1,0 +1,19 @@
+.title{
+    font-weight: bold;
+    font-size: 2em;
+    text-align: left;
+}
+.underline{
+    text-decoration: underline;
+    text-align: justify;
+}
+#bold{
+    font-weight: bold;
+    text-align: justify;
+}
+.info{
+    color: red;
+    text-align: justify;
+    font-size: 0.8em;
+
+}
