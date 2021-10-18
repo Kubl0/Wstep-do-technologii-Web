@@ -102,12 +102,134 @@
                 </tr>
                </table><br><br><br>
 
+               </section>
+               <section>
+               <form action="https://inf.ug.edu.pl/~atejszerska/wdtw/tests/user.php" method="get">
+                <table>
+                    <tr>
+                        <td>Użytkownik</td>
+                        <td><input type="text" value="Anna" name="user"></td>
+                    </tr>
+                    <tr>
+                        <td>Hasło</td>
+                        <td><input type="password" value="abcdefg" name="password"></td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            <input type="submit" value="Wyślij">
+                        </td>
+                    </tr>
+
+                </table>
+               </form><br><br>
+            <table>
+                <tr><td>
+            <form action="https://inf.ug.edu.pl/~atejszerska/wdtw/tests/date.php" method="get">
+            Data:<input type="number" name="day" maxlength="2" size="31" min="1" max="31" value="1">
+            <input type="number" name="month" maxlength="2" size="12" min="1" max="12" value="1">
+            <input type="number" name="year" maxlength="4" size="10" min="2000" max="2050" value="2020">
+            <input type="submit" value="Sprawdz">
+            </form>
+                </td>
+                </tr>
+            </table>
+            <br><br>
+            <table>
+                <tr><td>
+            <form action="https://inf.ug.edu.pl/~atejszerska/wdtw/tests/date.php" method="get">
+            Data:<input type="number" name="day" maxlength="2" size="31" min="1" max="31" value="1">
+            <select name="month">
+            <option value="1">styczen</option>
+            <option value="2">luty</option>
+            <option value="3">marzec</option>
+            <option value="4">kwiecien</option>
+            <option value="5">maj</option>
+            <option value="6">czerwiec</option>
+            <option value="7">lipiec</option>
+            <option value="8">sierpien</option>
+            <option value="9">wrzesien</option>
+            <option value="10">pazdziernik</option>
+            <option value="11">listopad</option>
+            <option value="12">grudzien</option>
+            </select>
+            <input type="number" name="year" maxlength="4" size="10" min="2000" max="2050" value="2020">
+            <input type="submit" value="Sprawdz">
+            </form>
+                </td>
+                </tr>
+            </table>
+            </section>
+            <br><br>
+            <section>
+                <table>
+                    <tr><td>
+                <form action="https://inf.ug.edu.pl/~atejszerska/wdtw/tests/note.php" method="post" id="form">
+                Data:<input type="number" name="day" maxlength="2" size="31" min="1" max="31" value="1">
+                <select name="month">
+                <option value="1">styczen</option>
+                <option value="2">luty</option>
+                <option value="3">marzec</option>
+                <option value="4">kwiecien</option>
+                <option value="5">maj</option>
+                <option value="6">czerwiec</option>
+                <option value="7">lipiec</option>
+                <option value="8">sierpien</option>
+                <option value="9">wrzesien</option>
+                <option value="10">pazdziernik</option>
+                <option value="11">listopad</option>
+                <option value="12">grudzien</option>
+                </select>
+                <input type="number" name="year" maxlength="4" size="10" min="2000" max="2050" value="2020">
+                <br>
+                <br>
+                <textarea name="note" form="form" cols="33" rows="10">Miejsce na notatki...</textarea>
+                <br><br>
+                <input type="submit" value="Sprawdz">
+                </form>
+                    </td>
+                    </tr>
+                </table>
 
 
+                    <br><br><table>
+                        <tr>
+                       <td>Imie</td>
+                            <td><input type="text" name="imie" required></td>
+                        </tr>
+                        <tr>
+                            <td>Nazwisko</td>
+                            <td><input type="text" name="nazwisko" required></td>
+                        </tr>
+                        <tr>
+                            <td>Telefon</td>
+                            <td><input type="text" name="telefon" required></td>
+                        </tr>
+                        <tr>
+                            <td>E-mail</td>
+                            <td><input type="text" name="mail"></td>
+                        </tr>
+                        <tr>
+                            <td>Url</td>
+                            <td><input type="text" name="url"></td>
+                        </tr>
+                        <tr>
+                            <td>Data urodzenia</td>
+                            <td><input type="date" name="data" value="dd.mm.rrrr"></td>
+                        </tr>
+                        <tr>
+                            <td>Kolor oczu</td>
+                            <td><input type="text" name="kolor"></td>
+                        </tr>
+                        <tr>
+                            <td><input type="submit" value="Wyslij"></td>
+                        </tr>
+                    </table>
 
+
+            </section>
 
         </section>
-        </main>
+        </main><br><br>
         <footer>
             <address>
                 <a href="mailto:jakubwozniak0611@gmail.com">Mój e-mail</a>
