@@ -1,0 +1,10 @@
+.box{
+    border: solid 1px;
+    background-color: lightgray;
+    width: 50%;
+    padding: 15px;
+}
+.box-content{
+    border: solid 7px white;
+    padding: 15px;
+}
