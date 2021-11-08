@@ -1,0 +1,22 @@
+div{
+    height: 150px;
+    width: 250px;
+    position: absolute;
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+.A{
+    border: solid 5px blue;
+    background-color: lightblue;
+    right: 50px;
+    bottom: 50px;
+}
+.B{
+    border: solid 5px red;
+    background-color: pink; 
+    left: 50px;
+    top: 50px;
+}
