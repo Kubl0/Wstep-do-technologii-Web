@@ -1,0 +1,24 @@
+$colors: violet wheat whitesmoke yellow yellowgreen turquoise tomato thistle teal tan;
+$id: 1;
+
+body{
+    text-align: center;
+    margin: 0;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    border: solid 10px gray;
+    height: 100vh;
+    box-sizing: border-box;
+
+
+    @each $color in $colors {
+        .box-#{$id} {
+            background-color: $color;
+            height: 50px;
+        }
+        $id: $id+1;
+    }  
+}
