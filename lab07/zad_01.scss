@@ -3,30 +3,34 @@
     display: flex;
     align-items: flex-start;
     flex-wrap: wrap;
-    height: 100vh;
+    gap: 1%;
 
     .bg-color.orange{
         background-color: orange;
         height: 100px;
-        width: 49%;
-        margin-right: 10px;
+        width: 49.5%;
+        margin-bottom: 10px;
+        border-radius: 20px;
     }
     .bg-color.green{
         background-color: green;
         height: 100px;
         width: 100%;
+        margin-bottom: 10px;
+        border-radius: 20px;
     }
     .bg-color.blue{
         background-color: blue;
         height: 100px;
-        width: 32%;
-        margin-right: 10px;
+        width: 32.66%;
+        margin-bottom: 10px;
+        border-radius: 20px;
     }
     .bg-color.gray{
         background-color: gray;
         height: 100px;
-        width: 24%;
-        margin-right: 10px;
+        width: 24.25%;
+        border-radius: 20px;
     }
 }
 
