@@ -7,10 +7,16 @@
 
     .bg-color.orange{
         background-color: orange;
-        height: 100px;
-        width: 49.5%;
         margin-bottom: 10px;
         border-radius: 20px;
+        height: 100px;
+        width: 49.5%;
+        @media (max-width: 320px) {
+            width: 100%;
+        }
+        @media (max-width: 768px) {
+            width: 49.5%;
+        }
     }
     .bg-color.green{
         background-color: green;
@@ -25,12 +31,22 @@
         width: 32.66%;
         margin-bottom: 10px;
         border-radius: 20px;
+        @media (max-width: 768px) {
+            width: 100%;
+        }
     }
     .bg-color.gray{
         background-color: gray;
         height: 100px;
         width: 24.25%;
+        margin-bottom: 10px;
         border-radius: 20px;
+         @media (max-width: 320px) {
+            width: 100%;
+        }
+        @media (max-width: 768px) {
+            width: 49.5%;
+        }
     }
 }
 
